@@ -1,4 +1,4 @@
-package com.dev.torhugo.ms.worker.email.config;
+package com.dev.torhugo.ms.worker.email.infrastructure.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -7,7 +7,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
 @Configuration
-public class BeanConfig {
+public class JavaMailBeanConfig {
     @Value("${integration.email.host}")
     private String host;
     @Value("${integration.email.port}")
