@@ -12,5 +12,5 @@ public record Message(
                 body +
                 conclusion +
                 signature;
-    };
+    }
 }
