@@ -1,4 +1,4 @@
-package com.dev.torhugo.ms.worker.email.domain.dto;
+package com.dev.torhugo.ms.worker.email.infrastructure.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -16,3 +16,7 @@ integration:
     port: 587
     username: ${USER_NAME_SMTP}
     password: ${USER_PASSWORD_SMTP}
+
+internal:
+  default:
+    email: contato.arrudavictor@gmail.com
