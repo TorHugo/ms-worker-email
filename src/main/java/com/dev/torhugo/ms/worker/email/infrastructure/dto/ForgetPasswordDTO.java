@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public record ForgetPasswordDTO(
         @JsonProperty("email") String emailTo,
-        @JsonProperty("hash_code") String hash,
-        @JsonProperty("expiration_date") String expirationDate
+        @JsonProperty("hash") String hash,
+        @JsonProperty("expiration") String expirationDate
 ) {
 }
