@@ -11,6 +11,10 @@ java {
     sourceCompatibility = '17'
 }
 
+bootJar {
+    archiveFileName = 'queue-worker-mail.jar'
+}
+
 configurations {
     compileOnly {
         extendsFrom annotationProcessor

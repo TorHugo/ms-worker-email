@@ -2,7 +2,7 @@
 ## APPLICATION ##
 #################
 server:
-  port: 8081
+  port: ${PORT_APPLICATION:9001}
   servlet:
     context-path: /v1/api
 
@@ -14,9 +14,9 @@ integration:
   email:
     host: smtp.gmail.com
     port: 587
-    username: ${USER_NAME_SMTP}
-    password: ${USER_PASSWORD_SMTP}
+    username: ${USER_NAME_SMTP:example@gmail.com}
+    password: ${USER_PASSWORD_SMTP:example@}
 
 internal:
   default:
-    email: contato.arrudavictor@gmail.com
+    email: ${DEFAULT_EMAIL:contato.arrudavictor@gmail.com}
