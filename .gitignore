@@ -41,3 +41,6 @@ out/
 
 ### MQ-DATA ###
 /data/
+
+# Docker-Compose
+docker-compose.yml
